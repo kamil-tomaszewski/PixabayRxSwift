@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="PixabayRxSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="emailErrorLabel" destination="gsX-fN-wXd" id="4gm-k7-Yrq"/>
+                <outlet property="emailTextfield" destination="aPv-vA-G64" id="6RA-bp-tjD"/>
+                <outlet property="loginButton" destination="b2R-vB-O1G" id="lHR-ea-joM"/>
+                <outlet property="loginErrorLabel" destination="2Sa-7O-v0N" id="bvz-49-Kda"/>
+                <outlet property="passwordErrorLabel" destination="hRB-ZP-p3F" id="cMx-pF-jQD"/>
+                <outlet property="passwordTextfield" destination="hW4-0E-h9w" id="eFF-Ya-yvt"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rry-6t-kCe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BR8-jr-IL3">
+                    <rect key="frame" x="18" y="369" width="357" height="139"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aPv-vA-G64">
+                            <rect key="frame" x="0.0" y="0.0" width="357" height="34"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incorrect email address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsX-fN-wXd">
+                            <rect key="frame" x="0.0" y="39" width="357" height="18"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                            <color key="textColor" systemColor="systemRedColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hW4-0E-h9w">
+                            <rect key="frame" x="0.0" y="62" width="357" height="34"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The password must be between 6 and 12 characters long" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRB-ZP-p3F">
+                            <rect key="frame" x="0.0" y="101" width="357" height="38"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                            <color key="textColor" systemColor="systemRedColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2R-vB-O1G">
+                    <rect key="frame" x="163.66666666666666" y="516" width="65.666666666666657" height="34.333333333333371"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login failed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Sa-7O-v0N">
+                    <rect key="frame" x="150.66666666666666" y="697.66666666666663" width="91.666666666666657" height="20.333333333333371"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <color key="textColor" systemColor="systemRedColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="BR8-jr-IL3" secondAttribute="trailing" constant="18" id="9eY-2b-FM4"/>
+                <constraint firstItem="BR8-jr-IL3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="FGu-tr-jpO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="2Sa-7O-v0N" secondAttribute="bottom" constant="100" id="IK1-kp-LQu"/>
+                <constraint firstItem="b2R-vB-O1G" firstAttribute="top" secondItem="BR8-jr-IL3" secondAttribute="bottom" constant="8" symbolic="YES" id="JzD-KS-ejt"/>
+                <constraint firstItem="2Sa-7O-v0N" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Khb-98-ajS"/>
+                <constraint firstItem="BR8-jr-IL3" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="TSp-p9-Ioh"/>
+                <constraint firstItem="b2R-vB-O1G" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="pR7-Wi-exk"/>
+            </constraints>
+            <point key="canvasLocation" x="131" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

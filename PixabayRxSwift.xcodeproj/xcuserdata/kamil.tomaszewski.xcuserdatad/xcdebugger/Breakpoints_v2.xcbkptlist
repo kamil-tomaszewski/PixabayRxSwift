@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B6BF0B84-494E-4F60-B5F1-68BA506DA549"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B53943A-54F1-40C5-9E03-F627DAA1948F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayRxSwift/Extensions/LoginRepository+Rx.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "init(repository:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B53943A-54F1-40C5-9E03-F627DAA1948F - 19e088018905424b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PixabayRxSwift.RxUserRepositoryProtocol.init(repository: pixabay_repositories.UserRepositoryProtocol) -&gt; PixabayRxSwift.RxUserRepositoryProtocol"
+                  moduleName = "PixabayRxSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamil.tomaszewski/Developer/PixabayRxSwift/PixabayRxSwift/Extensions/LoginRepository+Rx.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "4B53943A-54F1-40C5-9E03-F627DAA1948F - 15e6e8eafee4cd4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PixabayRxSwift.RxUserRepository.init(repository: pixabay_repositories.UserRepositoryProtocol) -&gt; PixabayRxSwift.RxUserRepository"
+                  moduleName = "PixabayRxSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamil.tomaszewski/Developer/PixabayRxSwift/PixabayRxSwift/Extensions/LoginRepository+Rx.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "583972F8-2728-4624-8267-9E9A96BC12FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayRxSwift/Extensions/LoginRepository+Rx.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "rx"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "583972F8-2728-4624-8267-9E9A96BC12FE - 9c3d082d58d0817b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pixabay_repositories.UserRepositoryProtocol.rx.getter : RxSwift.Reactive&lt;PixabayRxSwift.RxUserRepositoryProtocol&gt;"
+                  moduleName = "PixabayRxSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamil.tomaszewski/Developer/PixabayRxSwift/PixabayRxSwift/Extensions/LoginRepository+Rx.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "583972F8-2728-4624-8267-9E9A96BC12FE - 6e90401797eb5925"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pixabay_repositories.UserRepositoryProtocol.rx.getter : RxSwift.Reactive&lt;PixabayRxSwift.RxUserRepository&gt;"
+                  moduleName = "PixabayRxSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamil.tomaszewski/Developer/PixabayRxSwift/PixabayRxSwift/Extensions/LoginRepository+Rx.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B876DD6-81C4-49E0-B349-4F8F94C9FFA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixabayRxSwift/LoginScene/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "navigateHome()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -9,13 +9,25 @@
 /* Begin PBXBuildFile section */
 		7C9BE2262B05732E0059D4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BE2252B05732E0059D4CF /* AppDelegate.swift */; };
 		7C9BE2282B05732E0059D4CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BE2272B05732E0059D4CF /* SceneDelegate.swift */; };
-		7C9BE22A2B05732E0059D4CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BE2292B05732E0059D4CF /* ViewController.swift */; };
-		7C9BE22D2B05732E0059D4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9BE22B2B05732E0059D4CF /* Main.storyboard */; };
+		7C9BE22A2B05732E0059D4CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BE2292B05732E0059D4CF /* LoginViewController.swift */; };
 		7C9BE22F2B05732F0059D4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9BE22E2B05732F0059D4CF /* Assets.xcassets */; };
 		7C9BE2322B05732F0059D4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9BE2302B05732F0059D4CF /* LaunchScreen.storyboard */; };
 		7C9BE23D2B05732F0059D4CF /* PixabayRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BE23C2B05732F0059D4CF /* PixabayRxSwiftTests.swift */; };
 		7C9BE2472B05732F0059D4CF /* PixabayRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BE2462B05732F0059D4CF /* PixabayRxSwiftUITests.swift */; };
 		7C9BE2492B05732F0059D4CF /* PixabayRxSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BE2482B05732F0059D4CF /* PixabayRxSwiftUITestsLaunchTests.swift */; };
+		7C9BE2582B0573BB0059D4CF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C9BE2572B0573BB0059D4CF /* LoginViewController.xib */; };
+		7C9BE25B2B057B3E0059D4CF /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9BE25A2B057B3E0059D4CF /* RxCocoa */; };
+		7C9BE25D2B057B3E0059D4CF /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9BE25C2B057B3E0059D4CF /* RxRelay */; };
+		7C9BE25F2B057B3E0059D4CF /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9BE25E2B057B3E0059D4CF /* RxSwift */; };
+		7C9BE2612B057B3E0059D4CF /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9BE2602B057B3E0059D4CF /* RxTest */; };
+		7CD6D8172B057D7A00DEE446 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8162B057D7A00DEE446 /* LoginViewModel.swift */; };
+		7CD6D81B2B05823800DEE446 /* pixabay-repositories in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD6D81A2B05823800DEE446 /* pixabay-repositories */; };
+		7CD6D81D2B05845000DEE446 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D81C2B05845000DEE446 /* EmailValidator.swift */; };
+		7CD6D8222B06A60700DEE446 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8202B06A60600DEE446 /* HomeViewController.swift */; };
+		7CD6D8232B06A60700DEE446 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D8212B06A60700DEE446 /* HomeViewController.xib */; };
+		7CD6D8252B06A8A000DEE446 /* LoginRepository+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8242B06A8A000DEE446 /* LoginRepository+Rx.swift */; };
+		7CD6D8282B06A8C600DEE446 /* Rx+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8272B06A8C600DEE446 /* Rx+Async.swift */; };
+		7CD6D82B2B06CD6300DEE446 /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD6D82A2B06CD6300DEE446 /* RxSwiftExt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +51,7 @@
 		7C9BE2222B05732E0059D4CF /* PixabayRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixabayRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9BE2252B05732E0059D4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C9BE2272B05732E0059D4CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C9BE2292B05732E0059D4CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C9BE22C2B05732E0059D4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C9BE2292B05732E0059D4CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7C9BE22E2B05732F0059D4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C9BE2312B05732F0059D4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C9BE2332B05732F0059D4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,14 @@
 		7C9BE2422B05732F0059D4CF /* PixabayRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9BE2462B05732F0059D4CF /* PixabayRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayRxSwiftUITests.swift; sourceTree = "<group>"; };
 		7C9BE2482B05732F0059D4CF /* PixabayRxSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayRxSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C9BE2572B0573BB0059D4CF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		7CD6D8162B057D7A00DEE446 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7CD6D8182B057FBD00DEE446 /* pixabay-repositories */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pixabay-repositories"; sourceTree = SOURCE_ROOT; };
+		7CD6D81C2B05845000DEE446 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		7CD6D8202B06A60600DEE446 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7CD6D8212B06A60700DEE446 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		7CD6D8242B06A8A000DEE446 /* LoginRepository+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginRepository+Rx.swift"; sourceTree = "<group>"; };
+		7CD6D8272B06A8C600DEE446 /* Rx+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+Async.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9BE25F2B057B3E0059D4CF /* RxSwift in Frameworks */,
+				7C9BE25D2B057B3E0059D4CF /* RxRelay in Frameworks */,
+				7C9BE25B2B057B3E0059D4CF /* RxCocoa in Frameworks */,
+				7CD6D82B2B06CD6300DEE446 /* RxSwiftExt in Frameworks */,
+				7CD6D81B2B05823800DEE446 /* pixabay-repositories in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9BE2612B057B3E0059D4CF /* RxTest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +108,7 @@
 				7C9BE23B2B05732F0059D4CF /* PixabayRxSwiftTests */,
 				7C9BE2452B05732F0059D4CF /* PixabayRxSwiftUITests */,
 				7C9BE2232B05732E0059D4CF /* Products */,
+				7CD6D8192B05823800DEE446 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +125,15 @@
 		7C9BE2242B05732E0059D4CF /* PixabayRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				7CD6D8182B057FBD00DEE446 /* pixabay-repositories */,
+				7C9BE2562B05736D0059D4CF /* HomeScene */,
+				7C9BE2552B0573650059D4CF /* LoginScene */,
 				7C9BE2252B05732E0059D4CF /* AppDelegate.swift */,
 				7C9BE2272B05732E0059D4CF /* SceneDelegate.swift */,
-				7C9BE2292B05732E0059D4CF /* ViewController.swift */,
-				7C9BE22B2B05732E0059D4CF /* Main.storyboard */,
 				7C9BE22E2B05732F0059D4CF /* Assets.xcassets */,
 				7C9BE2302B05732F0059D4CF /* LaunchScreen.storyboard */,
 				7C9BE2332B05732F0059D4CF /* Info.plist */,
+				7CD6D8262B06A8A600DEE446 /* Extensions */,
 			);
 			path = PixabayRxSwift;
 			sourceTree = "<group>";
@@ -127,6 +155,42 @@
 			path = PixabayRxSwiftUITests;
 			sourceTree = "<group>";
 		};
+		7C9BE2552B0573650059D4CF /* LoginScene */ = {
+			isa = PBXGroup;
+			children = (
+				7C9BE2572B0573BB0059D4CF /* LoginViewController.xib */,
+				7C9BE2292B05732E0059D4CF /* LoginViewController.swift */,
+				7CD6D8162B057D7A00DEE446 /* LoginViewModel.swift */,
+				7CD6D81C2B05845000DEE446 /* EmailValidator.swift */,
+			);
+			path = LoginScene;
+			sourceTree = "<group>";
+		};
+		7C9BE2562B05736D0059D4CF /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				7CD6D8202B06A60600DEE446 /* HomeViewController.swift */,
+				7CD6D8212B06A60700DEE446 /* HomeViewController.xib */,
+			);
+			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		7CD6D8192B05823800DEE446 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CD6D8262B06A8A600DEE446 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7CD6D8242B06A8A000DEE446 /* LoginRepository+Rx.swift */,
+				7CD6D8272B06A8C600DEE446 /* Rx+Async.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +207,13 @@
 			dependencies = (
 			);
 			name = PixabayRxSwift;
+			packageProductDependencies = (
+				7C9BE25A2B057B3E0059D4CF /* RxCocoa */,
+				7C9BE25C2B057B3E0059D4CF /* RxRelay */,
+				7C9BE25E2B057B3E0059D4CF /* RxSwift */,
+				7CD6D81A2B05823800DEE446 /* pixabay-repositories */,
+				7CD6D82A2B06CD6300DEE446 /* RxSwiftExt */,
+			);
 			productName = PixabayRxSwift;
 			productReference = 7C9BE2222B05732E0059D4CF /* PixabayRxSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +232,9 @@
 				7C9BE23A2B05732F0059D4CF /* PBXTargetDependency */,
 			);
 			name = PixabayRxSwiftTests;
+			packageProductDependencies = (
+				7C9BE2602B057B3E0059D4CF /* RxTest */,
+			);
 			productName = PixabayRxSwiftTests;
 			productReference = 7C9BE2382B05732F0059D4CF /* PixabayRxSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +289,10 @@
 				Base,
 			);
 			mainGroup = 7C9BE2192B05732E0059D4CF;
+			packageReferences = (
+				7C9BE2592B057B3E0059D4CF /* XCRemoteSwiftPackageReference "RxSwift" */,
+				7CD6D8292B06CD6300DEE446 /* XCRemoteSwiftPackageReference "RxSwiftExt" */,
+			);
 			productRefGroup = 7C9BE2232B05732E0059D4CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +310,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C9BE2322B05732F0059D4CF /* LaunchScreen.storyboard in Resources */,
+				7CD6D8232B06A60700DEE446 /* HomeViewController.xib in Resources */,
 				7C9BE22F2B05732F0059D4CF /* Assets.xcassets in Resources */,
-				7C9BE22D2B05732E0059D4CF /* Main.storyboard in Resources */,
+				7C9BE2582B0573BB0059D4CF /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +337,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C9BE22A2B05732E0059D4CF /* ViewController.swift in Sources */,
+				7CD6D8172B057D7A00DEE446 /* LoginViewModel.swift in Sources */,
+				7C9BE22A2B05732E0059D4CF /* LoginViewController.swift in Sources */,
+				7CD6D81D2B05845000DEE446 /* EmailValidator.swift in Sources */,
 				7C9BE2262B05732E0059D4CF /* AppDelegate.swift in Sources */,
+				7CD6D8282B06A8C600DEE446 /* Rx+Async.swift in Sources */,
 				7C9BE2282B05732E0059D4CF /* SceneDelegate.swift in Sources */,
+				7CD6D8222B06A60700DEE446 /* HomeViewController.swift in Sources */,
+				7CD6D8252B06A8A000DEE446 /* LoginRepository+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7C9BE22B2B05732E0059D4CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C9BE22C2B05732E0059D4CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C9BE2302B05732F0059D4CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +523,6 @@
 				INFOPLIST_FILE = PixabayRxSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +550,6 @@
 				INFOPLIST_FILE = PixabayRxSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -607,6 +681,57 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C9BE2592B057B3E0059D4CF /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+		7CD6D8292B06CD6300DEE446 /* XCRemoteSwiftPackageReference "RxSwiftExt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxSwiftExt.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C9BE25A2B057B3E0059D4CF /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9BE2592B057B3E0059D4CF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		7C9BE25C2B057B3E0059D4CF /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9BE2592B057B3E0059D4CF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		7C9BE25E2B057B3E0059D4CF /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9BE2592B057B3E0059D4CF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		7C9BE2602B057B3E0059D4CF /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9BE2592B057B3E0059D4CF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		7CD6D81A2B05823800DEE446 /* pixabay-repositories */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "pixabay-repositories";
+		};
+		7CD6D82A2B06CD6300DEE446 /* RxSwiftExt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CD6D8292B06CD6300DEE446 /* XCRemoteSwiftPackageReference "RxSwiftExt" */;
+			productName = RxSwiftExt;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7C9BE21A2B05732E0059D4CF /* Project object */;
 }
