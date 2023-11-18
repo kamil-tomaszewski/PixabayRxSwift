@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import pixabay_repositories
 import RxSwift
 import RxCocoa
 
@@ -23,6 +24,10 @@ final class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Login"
+        
+        emailTextfield.keyboardType = .emailAddress
+        emailTextfield.autocapitalizationType = .none
+        emailTextfield.autocorrectionType = .no
         
         emailTextfield.rx.controlEvent([.editingDidEndOnExit])
             .asObservable()
@@ -57,7 +62,6 @@ final class LoginViewController: UIViewController {
                 self?.navigateHome()
             })
             .disposed(by: disposeBag)
-            
     }
     
     private func bindInput() {
@@ -78,6 +82,7 @@ final class LoginViewController: UIViewController {
     
     private func navigateHome() {
         let homeViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
+        homeViewController.viewModel = HomeViewModel(repository: ImagesRepository())
         navigationController?.pushViewController(homeViewController, animated: true)
     }
 }

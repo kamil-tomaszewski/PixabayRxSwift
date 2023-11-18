@@ -28,6 +28,27 @@
 		7CD6D8252B06A8A000DEE446 /* LoginRepository+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8242B06A8A000DEE446 /* LoginRepository+Rx.swift */; };
 		7CD6D8282B06A8C600DEE446 /* Rx+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8272B06A8C600DEE446 /* Rx+Async.swift */; };
 		7CD6D82B2B06CD6300DEE446 /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD6D82A2B06CD6300DEE446 /* RxSwiftExt */; };
+		7CD6D82F2B07F7F700DEE446 /* ImageDetailsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D82E2B07F7F700DEE446 /* ImageDetailsResponse.json */; };
+		7CD6D8302B07F7F700DEE446 /* ImageDetailsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D82E2B07F7F700DEE446 /* ImageDetailsResponse.json */; };
+		7CD6D8322B07FF1C00DEE446 /* ImagesRepository+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8312B07FF1B00DEE446 /* ImagesRepository+Rx.swift */; };
+		7CD6D8342B080EF800DEE446 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8332B080EF800DEE446 /* HomeViewModel.swift */; };
+		7CD6D8372B080F9300DEE446 /* ImageDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8352B080F9300DEE446 /* ImageDetailsTableViewCell.swift */; };
+		7CD6D8382B080F9300DEE446 /* ImageDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D8362B080F9300DEE446 /* ImageDetailsTableViewCell.xib */; };
+		7CD6D83C2B0823F900DEE446 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD6D83B2B0823F900DEE446 /* Differentiator */; };
+		7CD6D83E2B0823F900DEE446 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD6D83D2B0823F900DEE446 /* RxDataSources */; };
+		7CD6D8412B08E4DD00DEE446 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD6D8402B08E4DD00DEE446 /* Nuke */; };
+		7CD6D8432B08E4DD00DEE446 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD6D8422B08E4DD00DEE446 /* NukeExtensions */; };
+		7CD6D8452B08E4DD00DEE446 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD6D8442B08E4DD00DEE446 /* NukeUI */; };
+		7CD6D8472B08E4DD00DEE446 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD6D8462B08E4DD00DEE446 /* NukeVideo */; };
+		7CD6D84A2B08E4F900DEE446 /* RxNuke in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD6D8492B08E4F900DEE446 /* RxNuke */; };
+		7CD6D84E2B08F16900DEE446 /* ImageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D84C2B08F16900DEE446 /* ImageDetailsViewController.swift */; };
+		7CD6D84F2B08F16900DEE446 /* ImageDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D84D2B08F16900DEE446 /* ImageDetailsViewController.xib */; };
+		7CD6D8512B08F17700DEE446 /* ImageDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8502B08F17700DEE446 /* ImageDetailsViewModel.swift */; };
+		7CD6D8542B08F34F00DEE446 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8522B08F34F00DEE446 /* ImageTableViewCell.swift */; };
+		7CD6D8552B08F34F00DEE446 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D8532B08F34F00DEE446 /* ImageTableViewCell.xib */; };
+		7CD6D8582B08F38E00DEE446 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D8562B08F38E00DEE446 /* DescriptionTableViewCell.swift */; };
+		7CD6D8592B08F38E00DEE446 /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D8572B08F38E00DEE446 /* DescriptionTableViewCell.xib */; };
+		7CD6D85F2B0948DD00DEE446 /* UIKit+ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D85E2B0948DD00DEE446 /* UIKit+ReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +89,19 @@
 		7CD6D8212B06A60700DEE446 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		7CD6D8242B06A8A000DEE446 /* LoginRepository+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginRepository+Rx.swift"; sourceTree = "<group>"; };
 		7CD6D8272B06A8C600DEE446 /* Rx+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+Async.swift"; sourceTree = "<group>"; };
+		7CD6D82E2B07F7F700DEE446 /* ImageDetailsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ImageDetailsResponse.json; sourceTree = "<group>"; };
+		7CD6D8312B07FF1B00DEE446 /* ImagesRepository+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagesRepository+Rx.swift"; sourceTree = "<group>"; };
+		7CD6D8332B080EF800DEE446 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7CD6D8352B080F9300DEE446 /* ImageDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		7CD6D8362B080F9300DEE446 /* ImageDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		7CD6D84C2B08F16900DEE446 /* ImageDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewController.swift; sourceTree = "<group>"; };
+		7CD6D84D2B08F16900DEE446 /* ImageDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageDetailsViewController.xib; sourceTree = "<group>"; };
+		7CD6D8502B08F17700DEE446 /* ImageDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewModel.swift; sourceTree = "<group>"; };
+		7CD6D8522B08F34F00DEE446 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		7CD6D8532B08F34F00DEE446 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		7CD6D8562B08F38E00DEE446 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		7CD6D8572B08F38E00DEE446 /* DescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		7CD6D85E2B0948DD00DEE446 /* UIKit+ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+ReusableView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +113,14 @@
 				7C9BE25D2B057B3E0059D4CF /* RxRelay in Frameworks */,
 				7C9BE25B2B057B3E0059D4CF /* RxCocoa in Frameworks */,
 				7CD6D82B2B06CD6300DEE446 /* RxSwiftExt in Frameworks */,
+				7CD6D83E2B0823F900DEE446 /* RxDataSources in Frameworks */,
+				7CD6D8452B08E4DD00DEE446 /* NukeUI in Frameworks */,
+				7CD6D83C2B0823F900DEE446 /* Differentiator in Frameworks */,
+				7CD6D84A2B08E4F900DEE446 /* RxNuke in Frameworks */,
 				7CD6D81B2B05823800DEE446 /* pixabay-repositories in Frameworks */,
+				7CD6D8412B08E4DD00DEE446 /* Nuke in Frameworks */,
+				7CD6D8472B08E4DD00DEE446 /* NukeVideo in Frameworks */,
+				7CD6D8432B08E4DD00DEE446 /* NukeExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +145,7 @@
 		7C9BE2192B05732E0059D4CF = {
 			isa = PBXGroup;
 			children = (
+				7CD6D8182B057FBD00DEE446 /* pixabay-repositories */,
 				7C9BE2242B05732E0059D4CF /* PixabayRxSwift */,
 				7C9BE23B2B05732F0059D4CF /* PixabayRxSwiftTests */,
 				7C9BE2452B05732F0059D4CF /* PixabayRxSwiftUITests */,
@@ -125,15 +167,14 @@
 		7C9BE2242B05732E0059D4CF /* PixabayRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				7CD6D8182B057FBD00DEE446 /* pixabay-repositories */,
-				7C9BE2562B05736D0059D4CF /* HomeScene */,
-				7C9BE2552B0573650059D4CF /* LoginScene */,
+				7CD6D85B2B093DD300DEE446 /* Scenes */,
 				7C9BE2252B05732E0059D4CF /* AppDelegate.swift */,
-				7C9BE2272B05732E0059D4CF /* SceneDelegate.swift */,
 				7C9BE22E2B05732F0059D4CF /* Assets.xcassets */,
-				7C9BE2302B05732F0059D4CF /* LaunchScreen.storyboard */,
-				7C9BE2332B05732F0059D4CF /* Info.plist */,
 				7CD6D8262B06A8A600DEE446 /* Extensions */,
+				7C9BE2332B05732F0059D4CF /* Info.plist */,
+				7CD6D82C2B07F7B200DEE446 /* JSONs */,
+				7C9BE2302B05732F0059D4CF /* LaunchScreen.storyboard */,
+				7C9BE2272B05732E0059D4CF /* SceneDelegate.swift */,
 			);
 			path = PixabayRxSwift;
 			sourceTree = "<group>";
@@ -171,6 +212,8 @@
 			children = (
 				7CD6D8202B06A60600DEE446 /* HomeViewController.swift */,
 				7CD6D8212B06A60700DEE446 /* HomeViewController.xib */,
+				7CD6D8332B080EF800DEE446 /* HomeViewModel.swift */,
+				7CD6D8392B080F9800DEE446 /* ImageDetailsCell */,
 			);
 			path = HomeScene;
 			sourceTree = "<group>";
@@ -185,10 +228,61 @@
 		7CD6D8262B06A8A600DEE446 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7CD6D8312B07FF1B00DEE446 /* ImagesRepository+Rx.swift */,
 				7CD6D8242B06A8A000DEE446 /* LoginRepository+Rx.swift */,
 				7CD6D8272B06A8C600DEE446 /* Rx+Async.swift */,
+				7CD6D85E2B0948DD00DEE446 /* UIKit+ReusableView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7CD6D82C2B07F7B200DEE446 /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				7CD6D82E2B07F7F700DEE446 /* ImageDetailsResponse.json */,
+			);
+			path = JSONs;
+			sourceTree = "<group>";
+		};
+		7CD6D8392B080F9800DEE446 /* ImageDetailsCell */ = {
+			isa = PBXGroup;
+			children = (
+				7CD6D8352B080F9300DEE446 /* ImageDetailsTableViewCell.swift */,
+				7CD6D8362B080F9300DEE446 /* ImageDetailsTableViewCell.xib */,
+			);
+			path = ImageDetailsCell;
+			sourceTree = "<group>";
+		};
+		7CD6D84B2B08F14400DEE446 /* DetailsScene */ = {
+			isa = PBXGroup;
+			children = (
+				7CD6D84C2B08F16900DEE446 /* ImageDetailsViewController.swift */,
+				7CD6D84D2B08F16900DEE446 /* ImageDetailsViewController.xib */,
+				7CD6D8502B08F17700DEE446 /* ImageDetailsViewModel.swift */,
+				7CD6D85A2B08F64000DEE446 /* Cells */,
+			);
+			path = DetailsScene;
+			sourceTree = "<group>";
+		};
+		7CD6D85A2B08F64000DEE446 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7CD6D8522B08F34F00DEE446 /* ImageTableViewCell.swift */,
+				7CD6D8532B08F34F00DEE446 /* ImageTableViewCell.xib */,
+				7CD6D8562B08F38E00DEE446 /* DescriptionTableViewCell.swift */,
+				7CD6D8572B08F38E00DEE446 /* DescriptionTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7CD6D85B2B093DD300DEE446 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7C9BE2552B0573650059D4CF /* LoginScene */,
+				7C9BE2562B05736D0059D4CF /* HomeScene */,
+				7CD6D84B2B08F14400DEE446 /* DetailsScene */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +307,13 @@
 				7C9BE25E2B057B3E0059D4CF /* RxSwift */,
 				7CD6D81A2B05823800DEE446 /* pixabay-repositories */,
 				7CD6D82A2B06CD6300DEE446 /* RxSwiftExt */,
+				7CD6D83B2B0823F900DEE446 /* Differentiator */,
+				7CD6D83D2B0823F900DEE446 /* RxDataSources */,
+				7CD6D8402B08E4DD00DEE446 /* Nuke */,
+				7CD6D8422B08E4DD00DEE446 /* NukeExtensions */,
+				7CD6D8442B08E4DD00DEE446 /* NukeUI */,
+				7CD6D8462B08E4DD00DEE446 /* NukeVideo */,
+				7CD6D8492B08E4F900DEE446 /* RxNuke */,
 			);
 			productName = PixabayRxSwift;
 			productReference = 7C9BE2222B05732E0059D4CF /* PixabayRxSwift.app */;
@@ -292,6 +393,9 @@
 			packageReferences = (
 				7C9BE2592B057B3E0059D4CF /* XCRemoteSwiftPackageReference "RxSwift" */,
 				7CD6D8292B06CD6300DEE446 /* XCRemoteSwiftPackageReference "RxSwiftExt" */,
+				7CD6D83A2B0823F900DEE446 /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				7CD6D83F2B08E4DD00DEE446 /* XCRemoteSwiftPackageReference "Nuke" */,
+				7CD6D8482B08E4F900DEE446 /* XCRemoteSwiftPackageReference "RxNuke" */,
 			);
 			productRefGroup = 7C9BE2232B05732E0059D4CF /* Products */;
 			projectDirPath = "";
@@ -309,8 +413,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD6D8552B08F34F00DEE446 /* ImageTableViewCell.xib in Resources */,
 				7C9BE2322B05732F0059D4CF /* LaunchScreen.storyboard in Resources */,
 				7CD6D8232B06A60700DEE446 /* HomeViewController.xib in Resources */,
+				7CD6D8382B080F9300DEE446 /* ImageDetailsTableViewCell.xib in Resources */,
+				7CD6D8592B08F38E00DEE446 /* DescriptionTableViewCell.xib in Resources */,
+				7CD6D84F2B08F16900DEE446 /* ImageDetailsViewController.xib in Resources */,
 				7C9BE22F2B05732F0059D4CF /* Assets.xcassets in Resources */,
 				7C9BE2582B0573BB0059D4CF /* LoginViewController.xib in Resources */,
 			);
@@ -320,6 +428,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD6D82F2B07F7F700DEE446 /* ImageDetailsResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +436,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD6D8302B07F7F700DEE446 /* ImageDetailsResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,12 +448,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD6D8172B057D7A00DEE446 /* LoginViewModel.swift in Sources */,
+				7CD6D8582B08F38E00DEE446 /* DescriptionTableViewCell.swift in Sources */,
+				7CD6D85F2B0948DD00DEE446 /* UIKit+ReusableView.swift in Sources */,
 				7C9BE22A2B05732E0059D4CF /* LoginViewController.swift in Sources */,
+				7CD6D8372B080F9300DEE446 /* ImageDetailsTableViewCell.swift in Sources */,
 				7CD6D81D2B05845000DEE446 /* EmailValidator.swift in Sources */,
+				7CD6D8342B080EF800DEE446 /* HomeViewModel.swift in Sources */,
 				7C9BE2262B05732E0059D4CF /* AppDelegate.swift in Sources */,
+				7CD6D84E2B08F16900DEE446 /* ImageDetailsViewController.swift in Sources */,
+				7CD6D8542B08F34F00DEE446 /* ImageTableViewCell.swift in Sources */,
 				7CD6D8282B06A8C600DEE446 /* Rx+Async.swift in Sources */,
 				7C9BE2282B05732E0059D4CF /* SceneDelegate.swift in Sources */,
 				7CD6D8222B06A60700DEE446 /* HomeViewController.swift in Sources */,
+				7CD6D8512B08F17700DEE446 /* ImageDetailsViewModel.swift in Sources */,
+				7CD6D8322B07FF1C00DEE446 /* ImagesRepository+Rx.swift in Sources */,
 				7CD6D8252B06A8A000DEE446 /* LoginRepository+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,6 +817,30 @@
 				minimumVersion = 6.2.1;
 			};
 		};
+		7CD6D83A2B0823F900DEE446 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		7CD6D83F2B08E4DD00DEE446 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.6;
+			};
+		};
+		7CD6D8482B08E4F900DEE446 /* XCRemoteSwiftPackageReference "RxNuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/RxNuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -730,6 +872,41 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7CD6D8292B06CD6300DEE446 /* XCRemoteSwiftPackageReference "RxSwiftExt" */;
 			productName = RxSwiftExt;
+		};
+		7CD6D83B2B0823F900DEE446 /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CD6D83A2B0823F900DEE446 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		7CD6D83D2B0823F900DEE446 /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CD6D83A2B0823F900DEE446 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+		7CD6D8402B08E4DD00DEE446 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CD6D83F2B08E4DD00DEE446 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		7CD6D8422B08E4DD00DEE446 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CD6D83F2B08E4DD00DEE446 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		7CD6D8442B08E4DD00DEE446 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CD6D83F2B08E4DD00DEE446 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		7CD6D8462B08E4DD00DEE446 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CD6D83F2B08E4DD00DEE446 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+		7CD6D8492B08E4F900DEE446 /* RxNuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CD6D8482B08E4F900DEE446 /* XCRemoteSwiftPackageReference "RxNuke" */;
+			productName = RxNuke;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

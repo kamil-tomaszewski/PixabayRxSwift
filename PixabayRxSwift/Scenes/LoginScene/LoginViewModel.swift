@@ -27,7 +27,6 @@ final class LoginViewModel {
         let isInvalidEmail = input.email
             .map { EmailValidator(email: $0).validate() == .invalid }
             .share()
-        
 
         output.emailError = Observable.merge(isInvalidEmail, input.submit.mapTo(false))
             .map { $0 ? invalidEmailMessage : nil }
@@ -57,6 +56,7 @@ final class LoginViewModel {
             .withLatestFrom(credentials)
             .flatMapLatest { email, password in
                 repository.rx.login(email: email, password: password)
+                    .andThen(Observable.just(()))
                     .asObservable()
                     .materialize()
             }
@@ -64,7 +64,6 @@ final class LoginViewModel {
         
         output.loginSucceeded = loginResultEvents
             .elements()
-            .mapTo(())
             .asSignal(onErrorSignalWith: .never())
         
         let loginResultError = loginResultEvents
