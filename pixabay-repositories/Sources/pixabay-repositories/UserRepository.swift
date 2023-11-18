@@ -16,7 +16,7 @@ public final class UserRepository: UserRepositoryProtocol {
     
     public func login(email: String, password: String) async throws {
             try await Task.sleep(nanoseconds: 2_000_000_000)
-            if email != "kamil@tomaszewski.com" {
+            if email != "tim@apple.com" {
                 throw RepositoryError.incorrectCredentials
             }
     }

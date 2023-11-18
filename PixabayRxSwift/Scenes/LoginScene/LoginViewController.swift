@@ -19,7 +19,7 @@ final class LoginViewController: UIViewController {
     @IBOutlet private var loginErrorLabel: UILabel!
     
     private let disposeBag = DisposeBag()
-    var viewModel: LoginViewModel! //TODO: FIXME
+    var viewModel: LoginViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,11 +42,13 @@ final class LoginViewController: UIViewController {
 
     private func bindOutput() {
         viewModel.output.emailError
-            .drive(emailErrorLabel.rx.text)
+            .map { $0 ? .systemRed : .label }
+            .drive(emailErrorLabel.rx.textColor)
             .disposed(by: disposeBag)
         
         viewModel.output.passwordError
-            .drive(passwordErrorLabel.rx.text)
+            .map { $0 ? .systemRed : .label }
+            .drive(passwordErrorLabel.rx.textColor)
             .disposed(by: disposeBag)
         
         viewModel.output.isLoginEnabled
@@ -54,13 +56,22 @@ final class LoginViewController: UIViewController {
             .disposed(by: disposeBag)
         
         viewModel.output.loginOperationError
-            .drive(loginErrorLabel.rx.text)
+            .map { !$0 }
+            .drive(loginErrorLabel.rx.isHidden)
             .disposed(by: disposeBag)
         
         viewModel.output.loginSucceeded
             .emit(onNext: { [weak self] in
                 self?.navigateHome()
             })
+            .disposed(by: disposeBag)
+        
+        viewModel.output.email
+            .drive(emailTextfield.rx.text)
+            .disposed(by: disposeBag)
+        
+        viewModel.output.password
+            .drive(passwordTextfield.rx.text)
             .disposed(by: disposeBag)
     }
     

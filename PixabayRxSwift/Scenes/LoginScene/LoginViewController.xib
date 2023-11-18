@@ -25,34 +25,32 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BR8-jr-IL3">
-                    <rect key="frame" x="18" y="369" width="357" height="139"/>
+                    <rect key="frame" x="18" y="162" width="357" height="114.33333333333331"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="aPv-vA-G64">
                             <rect key="frame" x="0.0" y="0.0" width="357" height="34"/>
                             <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                             <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                         </textField>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incorrect email address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsX-fN-wXd">
-                            <rect key="frame" x="0.0" y="39" width="357" height="18"/>
-                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                            <color key="textColor" systemColor="systemRedColor"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please provide valid email address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsX-fN-wXd">
+                            <rect key="frame" x="0.0" y="39" width="357" height="15.666666666666664"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hW4-0E-h9w">
-                            <rect key="frame" x="0.0" y="62" width="357" height="34"/>
+                            <rect key="frame" x="0.0" y="59.666666666666657" width="357" height="34"/>
                             <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                             <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The password must be between 6 and 12 characters long" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRB-ZP-p3F">
-                            <rect key="frame" x="0.0" y="101" width="357" height="38"/>
-                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                            <color key="textColor" systemColor="systemRedColor"/>
+                            <rect key="frame" x="0.0" y="98.666666666666686" width="357" height="15.666666666666671"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
                 </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2R-vB-O1G">
-                    <rect key="frame" x="163.66666666666666" y="516" width="65.666666666666657" height="34.333333333333371"/>
+                    <rect key="frame" x="163.66666666666666" y="284.33333333333331" width="65.666666666666657" height="34.333333333333314"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="Login"/>
                 </button>
@@ -71,7 +69,7 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="2Sa-7O-v0N" secondAttribute="bottom" constant="100" id="IK1-kp-LQu"/>
                 <constraint firstItem="b2R-vB-O1G" firstAttribute="top" secondItem="BR8-jr-IL3" secondAttribute="bottom" constant="8" symbolic="YES" id="JzD-KS-ejt"/>
                 <constraint firstItem="2Sa-7O-v0N" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Khb-98-ajS"/>
-                <constraint firstItem="BR8-jr-IL3" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="TSp-p9-Ioh"/>
+                <constraint firstItem="BR8-jr-IL3" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" multiplier="0.5" id="TSp-p9-Ioh"/>
                 <constraint firstItem="b2R-vB-O1G" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="pR7-Wi-exk"/>
             </constraints>
             <point key="canvasLocation" x="131" y="-11"/>

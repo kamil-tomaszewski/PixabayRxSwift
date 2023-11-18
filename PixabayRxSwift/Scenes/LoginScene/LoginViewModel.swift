@@ -22,25 +22,28 @@ final class LoginViewModel {
     init(repository: UserRepositoryProtocol) {
         self.repository = repository
         
-        let invalidEmailMessage = "Please enter a valid email address"
+        output.email = input.email.asDriver(onErrorJustReturn: nil)
+        output.password = input.password.asDriver(onErrorJustReturn: nil)
         
-        let isInvalidEmail = input.email
+        let email = input.email
+            .unwrap()
+        
+        let isInvalidEmail = email
             .map { EmailValidator(email: $0).validate() == .invalid }
             .share()
 
         output.emailError = Observable.merge(isInvalidEmail, input.submit.mapTo(false))
-            .map { $0 ? invalidEmailMessage : nil }
-            .asDriver(onErrorJustReturn: nil)
+            .asDriver(onErrorJustReturn: false)
         
-        let invalidPasswordMessage = "The password must be between 6 and 12 characters long"
+        let password = input.password
+            .unwrap()
         
-        let isInvalidPassword = input.password
+        let isInvalidPassword = password
             .map { $0.count < 6 || $0.count > 12 }
             .share()
         
         output.passwordError = Observable.merge(isInvalidPassword, input.submit.mapTo(false))
-            .map { $0 ? invalidPasswordMessage : nil }
-            .asDriver(onErrorJustReturn: nil)
+            .asDriver(onErrorJustReturn: false)
         
         output.isLoginEnabled = Observable
             .combineLatest(isInvalidEmail, isInvalidPassword)
@@ -48,9 +51,7 @@ final class LoginViewModel {
             .asDriver(onErrorJustReturn: true)
         
         let credentials = Observable
-            .combineLatest(input.email, input.password)
-        
-        let loginOperationErrorMessage = "Login failed"
+            .combineLatest(email, password)
         
         let loginResultEvents = input.submit
             .withLatestFrom(credentials)
@@ -68,28 +69,30 @@ final class LoginViewModel {
         
         let loginResultError = loginResultEvents
             .errors()
-            .mapTo(loginOperationErrorMessage)
-            .startWith(nil)
+            .mapTo(true)
+            .startWith(false)
 
-        output.loginOperationError = Observable.merge(loginResultError, input.submit.mapTo(nil))
-            .asDriver(onErrorJustReturn: nil)
+        output.loginOperationError = Observable.merge(loginResultError, input.submit.mapTo(false))
+            .asDriver(onErrorJustReturn: false)
     }
 }
 
 extension LoginViewModel {
     struct Input {
-        let email = BehaviorSubject<String>(value: "")
-        let password = BehaviorSubject<String>(value: "")
+        let email = BehaviorSubject<String?>(value: nil)
+        let password = BehaviorSubject<String?>(value: nil)
         let submit = PublishRelay<Void>()
         
         fileprivate init() {}
     }
     
     struct Output {
-        fileprivate(set) var emailError: Driver<String?> = .never()
-        fileprivate(set) var passwordError: Driver<String?> = .never()
+        fileprivate(set) var email: Driver<String?> = .never()
+        fileprivate(set) var emailError: Driver<Bool> = .never()
+        fileprivate(set) var password: Driver<String?> = .never()
+        fileprivate(set) var passwordError: Driver<Bool> = .never()
         fileprivate(set) var isLoginEnabled: Driver<Bool> = .never()
-        fileprivate(set) var loginOperationError: Driver<String?> = .never()
+        fileprivate(set) var loginOperationError: Driver<Bool> = .never()
         fileprivate(set) var loginSucceeded: Signal<Void> = .never()
     }
 }
